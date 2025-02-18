@@ -1,0 +1,71 @@
+body {
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    color:#525252; 
+  }
+  
+  h1 {
+    font-family: "Grand Hotel", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #cf8b6b;
+    font-size: 55px;
+    text-align: center;
+  
+  }
+  
+  #label {
+     font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  
+  p {
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 2em;
+    display:inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  
+  h1, p, #description {
+    text-align:center;
+  }
+  
+  hr {
+    height:2px;
+    background-color: #CF8B6B
+  }
+  
+  #name, #number, #email {
+    font-family: "Fira Sans", serif;
+    font-weight: 300;
+    font-style: normal;
+    
+  }
+  
+  
+  footer {
+    font-size: 14px;
+  }
+  
+  #survey-form {
+    width: 90%;
+    
+    margin-left:auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width:500px;
+    line-height: 3em;
+  }
+  
+  a {
+    color: #cf8b6b;
+  }

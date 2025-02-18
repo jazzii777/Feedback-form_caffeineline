@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Records</title>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Grand+Hotel&display=swap" rel="stylesheet">
+<link href="./Resources/stylesheet.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <body>
+        <h1 id="title"> Help us improve your Caffeine Experience! </h1>
+          <p id="description"> <br><br> Thank you for taking the time to share your thoughts! Your feedback helps us refine our products and create better caffeine-infused experiences tailored to your needs. This survey will take just a few minutes.
+            <form id="survey-form">
+              <!--Name -->
+              <label id="name-label">Name <input id="name" type="text" placeholder="Name" required /></label><br>
+             <!--email -->
+            <label id="email-label">Email <input id="email" type="email" placeholder="Email" required /></label><br><hr>
+             <!--Number -->
+           <label id="number-label"> Household <input id="number" type="number" min="1" max="20" placeholder="0"></input></label><hr>
+            <!--Dropdown-->
+          <label> How often do you consume caffeine products?</label> <select id=dropdown>
+            <option value="often">Daily</option>
+            <option value="often">A few times a week</option>
+            <option value="often">Occasionally</option>
+            <option value="often">Rarely</option>
+          </select><hr>
+           <!--Radio buttons-->
+          <fieldset> 
+          <legend>Have you tried our Caffeine Line caffeine products before?</legend>
+          <label> <input unchecked id="products" type="radio" name="yes-no" value="product"> Yes</label>
+          <label>
+          <input unchecked id="products" type="radio" name="yes-no" value="product"> No</label>
+          </fieldset><hr>
+         <!--Checkboxes-->
+           <fieldset> 
+          <legend>What type of caffeine products do you prefer? </legend>
+          <label>
+          <input unchecked id="coffee" type="checkbox" name="prefer" value="coffee"> Coffee</label><br>
+           <label><input unchecked id="Tea" type="checkbox" name="prefer" value="Tea"> Tea</label><br>
+          <label> <input unchecked id="energy-drinks" type="checkbox" name="prefer" value="energy-drinks"> Energy Drinks</label><br>
+          <label> <input unchecked id="snacks" type="checkbox" name="prefer" value="snacks"> Caffeinated snacks (e.g., chocolate, gum)</label> <br>
+           <label> <input unchecked id="supplement" type="checkbox" name="prefer" value="supplement"> Supplements</label>
+          </fieldset><hr>
+           <!--Textarea-->
+           <label id="textarea"> What is one feature or product you wish existed in a caffeine line?<textarea row="#" cols="#"></textarea> </input><br><br>
+            <!--Submit to all inputs-->
+            <a><button input="submit" id="submit" type = "submit">Submit</button></a>
+            </form>
+          </p>
+        </body>
+        <footer>
+            <p>2025 @ caffeineline <a href="https://www.freecodecamp.org">Caffeine Line</a></p></footer>
+</html>
